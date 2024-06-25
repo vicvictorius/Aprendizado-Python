@@ -1,7 +1,9 @@
-# Aprendendo Python <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="20" height="20">
+# Aprendendo Python <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+Iniciante:                              
 
-Iniciante:
 - [x] Gerador de senhas 🔑
 - [ ] Calculadora 📱
 - [ ] Jogo da forca 😵̷̊̊̊̊̊
 - [ ] Lista de tarefas 📝
+
+
