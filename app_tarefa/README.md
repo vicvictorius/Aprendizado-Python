@@ -1,5 +1,5 @@
 
-Certamente! Aqui está o README estilizado para o módulo do aplicativo de tarefas:
+
 
 ---
 
