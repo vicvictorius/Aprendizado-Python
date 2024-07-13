@@ -1,26 +1,3 @@
-#O que
-O código cria uma aplicação GUI para gerenciar tarefas, permitindo aos usuários adicionar, editar e excluir tarefas com várias funcionalidades.
-
-#Como
-== O código inicializa uma janela Tkinter e configura os elementos GUI para o gerenciamento de tarefas.
-== Funções são definidas para adicionar, editar e excluir tarefas, bem como alternar estilos de texto.
-== Widgets como rótulos, botões e campos de entrada são criados e atualizados dinamicamente com base nas interações do usuário.
-
-#Acoplamento e Coesão
-O código exibe um acoplamento moderado devido à interdependência dos elementos GUI e funções. Ele mostra boa coesão ao agrupar funcionalidades relacionadas ao gerenciamento de tarefas juntas.
-
-#Princípio da Responsabilidade Única
-O código segue parcialmente o Princípio da Responsabilidade Única ao separar funções para diferentes ações de tarefas. No entanto, algumas funções poderiam ser refinadas para uma melhor adesão ao SRP.
-
-#Coisas Incomuns
-== Uso de funções lambda dentro dos comandos de botão para passar parâmetros.
-== Atualização dinâmica da região de rolagem do canvas com base no tamanho do conteúdo.
-
-#Altamente Suspeito
-== Falta de tratamento de erros para entradas de usuário inesperadas ou interações GUI.
-== Possíveis problemas de desempenho ao atualizar a região de rolagem do canvas a cada alteração de conteúdo.
-
-
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -97,7 +74,8 @@ Returns:
 Esta função altera o estilo de sublinhado de um rótulo entre ativado e desativado.
 
 Args:
-- label: O rótulo cujo estilo de sublinhado será alternado.
+* label: O rótulo cujo estilo de sublinhado será alternado.
 
 Returns:
-- A nova configuração de fonte do rótulo após a alteração de estilo.
+* A nova configuração de fonte do rótulo após a alteração de estilo.
+----------------------------------------------------------------------------------------------------------------------------------------------
