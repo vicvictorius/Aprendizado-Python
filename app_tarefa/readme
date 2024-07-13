@@ -1,0 +1,103 @@
+#O que
+O código cria uma aplicação GUI para gerenciar tarefas, permitindo aos usuários adicionar, editar e excluir tarefas com várias funcionalidades.
+
+#Como
+== O código inicializa uma janela Tkinter e configura os elementos GUI para o gerenciamento de tarefas.
+== Funções são definidas para adicionar, editar e excluir tarefas, bem como alternar estilos de texto.
+== Widgets como rótulos, botões e campos de entrada são criados e atualizados dinamicamente com base nas interações do usuário.
+
+#Acoplamento e Coesão
+O código exibe um acoplamento moderado devido à interdependência dos elementos GUI e funções. Ele mostra boa coesão ao agrupar funcionalidades relacionadas ao gerenciamento de tarefas juntas.
+
+#Princípio da Responsabilidade Única
+O código segue parcialmente o Princípio da Responsabilidade Única ao separar funções para diferentes ações de tarefas. No entanto, algumas funções poderiam ser refinadas para uma melhor adesão ao SRP.
+
+#Coisas Incomuns
+== Uso de funções lambda dentro dos comandos de botão para passar parâmetros.
+== Atualização dinâmica da região de rolagem do canvas com base no tamanho do conteúdo.
+
+#Altamente Suspeito
+== Falta de tratamento de erros para entradas de usuário inesperadas ou interações GUI.
+== Possíveis problemas de desempenho ao atualizar a região de rolagem do canvas a cada alteração de conteúdo.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Meu app de Tarefas
+
+Este módulo contém funções para gerenciar um aplicativo de lista de tarefas, permitindo adicionar, editar, deletar e alternar estilos de tarefas.
+
+## Functions
+
+### adicionar_tarefa()
+
+Adiciona uma nova tarefa à lista de tarefas. Se uma tarefa válida for inserida, ela é adicionada como um item de tarefa. Caso contrário, exibe um aviso de entrada inválida.
+
+Args:
+- Nenhum argumento.
+
+Returns:
+- Nenhum retorno.
+
+### adicionar_item_tarefa(tarefa)
+
+Adiciona um item de tarefa à interface gráfica, incluindo a tarefa, botões de edição e exclusão, e um botão de alternar sublinhado.
+
+Args:
+- tarefa: A string representando a tarefa a ser adicionada.
+
+Returns:
+- Nenhum retorno.
+
+### preparar_edicao(frame_tarefa, label_tarefa)
+
+Prepara a edição de uma tarefa, preenchendo a entrada de tarefa com o texto da tarefa selecionada.
+
+Args:
+- frame_tarefa: O frame da tarefa a ser editada.
+- label_tarefa: O rótulo da tarefa a ser editada.
+
+Returns:
+- Nenhum retorno.
+
+### atualizar_tarefa(nova_tarefa)
+
+Atualiza o texto de uma tarefa existente com um novo texto fornecido.
+
+Args:
+- nova_tarefa: A nova string de texto para a tarefa.
+
+Returns:
+- Nenhum retorno.
+
+### deletar_tarefa(frame_tarefa)
+
+Deleta o frame de uma tarefa da interface gráfica.
+
+Args:
+- frame_tarefa: O frame da tarefa a ser deletada.
+
+Returns:
+- Nenhum retorno.
+
+### alternar_sublinhado(label)
+
+Altera o estilo de sublinhado de um rótulo entre ativado e desativado.
+
+Args:
+- label: O rótulo cujo estilo de sublinhado será alternado.
+
+Returns:
+- A nova configuração de fonte do rótulo após a alteração de estilo.
+
+
+# alternar_sublinhado
+
+Esta função altera o estilo de sublinhado de um rótulo entre ativado e desativado.
+
+Args:
+- label: O rótulo cujo estilo de sublinhado será alternado.
+
+Returns:
+- A nova configuração de fonte do rótulo após a alteração de estilo.
