@@ -1,7 +1,13 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-# Meu app de tarefas
+<h3 align="center">Meu app de tarefas</h3> 
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 Este módulo contém funções para gerenciar um aplicativo de lista de tarefas, permitindo adicionar, editar, deletar e alternar estilos de tarefas.
 
