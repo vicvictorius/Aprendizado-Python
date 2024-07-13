@@ -4,6 +4,6 @@ Iniciante:
 - [x] Gerador de senhas 🔑
 - [ ] Calculadora 📱
 - [ ] Jogo da forca 😵̷̊̊̊̊̊
-- [ ] Lista de tarefas 📝
+- [x] Lista de tarefas 📝
 
 
