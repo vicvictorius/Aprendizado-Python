@@ -5,5 +5,5 @@ Iniciante:
 - [ ] Calculadora 📱
 - [ ] Jogo da forca 😵̷̊̊̊̊̊
 - [x] Lista de tarefas 📝
-
+- [x] Quiz Game 🎮
 
