@@ -7,7 +7,7 @@ Este script em Python gera uma senha aleatória com base em critérios especific
 ```python
 senha = gerador_senhas(12, letras_maiúsculas=True, letras_minúsculas=True, inclusao_digitos=True, inclusao_especiais=True)
 ```
-Claro! Para criar um README no GitHub para a função `gerador_senhas`, você pode seguir o modelo abaixo. Certifique-se de substituir os campos entre `< >` com informações específicas sobre sua função.
+
 
 ---
 
