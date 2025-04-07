@@ -6,4 +6,5 @@ Iniciante:
 - [ ] Jogo da forca 😵̷̊̊̊̊̊
 - [x] Lista de tarefas 📝
 - [x] Quiz Game 🎮
+- [x] Sistema bancario 💸
 
